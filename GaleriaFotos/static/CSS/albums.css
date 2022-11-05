@@ -1,0 +1,32 @@
+section {
+  margin-top: 5rem;
+}
+
+.agregar_album:hover img {
+  transition: all 0.8s;
+  transform: scale(110%);
+}
+
+.agregar_album p {
+  color: #333;
+}
+.agregar_album:hover p {
+  color: #3f72af;
+}
+
+.agregar_album {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #333;
+  border-radius: 15px;
+}
+.agregar_album:hover {
+  border: 1px solid #3f72af;
+}
+.agregar_album img {
+  transition: all 0.8s;
+}
+
+.agregar_album {
+  width: 150px;
+}

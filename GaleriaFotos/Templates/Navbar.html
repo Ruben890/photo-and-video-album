@@ -1,0 +1,51 @@
+<nav>
+    <ul>
+      <li>
+        <a href="/">Fotos</a>
+      </li>
+      <li>
+        <a href="{% url 'Album' %}">Albums</a>
+      </li>
+      <li>
+        <a href="{% url 'ImportGalery' %}"><i class="fa-solid fa-circle-plus"></i></a>
+      </li>
+    </ul>
+  </nav>
+
+
+{% comment %}
+  stilos css de navbar  
+{% endcomment %}
+  <style>
+
+
+    @import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+
+header {
+  box-shadow: 12px 10px 12px #dbe2ef;
+  background-color: #f9f7f7;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+}
+nav ul > li {
+  padding: 12px;
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+nav ul li > a {
+  font-family: "Signika Negative", sans-serif;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  transition: all 0.8s;
+}
+nav ul li > a:hover {
+  font-size: 35px;
+  color: #3f72af;
+  transition: all 0.8s;
+}
+  </style>

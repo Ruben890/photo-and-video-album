@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+
+header {
+  box-shadow: 12px 10px 12px #dbe2ef;
+  background-color: #f9f7f7;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+}
+nav ul > li {
+  padding: 12px;
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+nav ul li > a {
+  font-family: "Signika Negative", sans-serif;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  transition: all 0.8s;
+}
+nav ul li > a:hover {
+  font-size: 35px;
+  color: #3f72af;
+  transition: all 0.8s;
+}
+#id_img {
+  display: none;
+}
+
+#id_video {
+  display: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+section .img_contents > img {
+  width: 15rem;
+  height: 15rem;
+  margin: 1rem;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.img_contents {
+  flex-wrap: wrap;
+}
+.video_contents {
+  flex-wrap: wrap;
+}
+
+section .video_contents > video {
+  width: 15rem;
+  height: 15rem;
+  margin: 1rem;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+#btn_img {
+  border-radius: 15px;
+  border: none;
+  padding: 18px;
+  margin: 1rem;
+  width: 15rem;
+  height: 15rem;
+  background: none;
+  border: 2px solid #333;
+}
+#btn_video {
+  border-radius: 15px;
+  border: none;
+  padding: 18px;
+  margin: 1rem;
+  width: 15rem;
+  height: 15rem;
+  background: none;
+  border: 2px solid #333;
+}
+
+#btn_video:hover {
+  border: 2px solid #3f72af;
+}
+#btn_img:hover {
+  border: 2px solid #3f72af;
+}
+
+#btn_img > img {
+  width: 5rem;
+}
+#btn_video > img {
+  width: 5rem;
+}
+
+.submit {
+  border: none;
+  padding: 18px;
+  margin: 1rem;
+}
+
+.col12 {
+  display: flex;
+}
+
+.submit > img {
+  width: 5rem;
+  border-radius: 100%;
+  transition: all 1s;
+  box-shadow: 15px 10px 15px #dbe2ef;
+}
+
+.submit > img:hover {
+  transition: all 1s;
+  transform: scale(110%);
+}
+.submit {
+  z-index: 2;
+  position: fixed;
+  background: none;
+}
