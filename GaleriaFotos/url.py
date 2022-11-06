@@ -8,7 +8,7 @@ urlpatterns = [
     path('EliminarImagenes/<int:id>', EliminarImages, name='EliminarImagenes'),
     path('Eliminarvideo/<int:id>', Eliminarvideo, name='Eliminarvideo'),
     path('Album', albums.as_view(), name='Album'),
-    path('CreateAbums', CreateAbums.as_view(), name='CreateAbums')
+   # path('CreateAbums', CreateAbums.as_view(), name='CreateAbums')
 
 
 ]
