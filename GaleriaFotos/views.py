@@ -63,7 +63,7 @@ class albums(ListView):
     context_object_name = 'album'
     
 """
-if someone knows how to create a new album or using the images that are already in the database let me know 😅😅😅
+If someone knows how to create a new album or using the images that are already in the database, let me know. please😅😅😅
 
 """
 #
