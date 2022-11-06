@@ -61,15 +61,20 @@ class albums(ListView):
     model = Album
     template_name = 'Albums.html'
     context_object_name = 'album'
+    
+"""
+if someone knows how to create a new album or using the images that are already in the database let me know 😅😅😅
 
+"""
+#
+#class CreateAbums(CreateView):
+ #   model = Album
+  #  template_name = "agregarAlbum.html"
+   # fields = '__all__'
+    #success_url = reverse_lazy('HomePage')
 
-class CreateAbums(CreateView):
-    model = Album
-    template_name = "agregarAlbum.html"
-    fields = '__all__'
-    success_url = reverse_lazy('HomePage')
-
-    def form_valid(self, form):
-        form.instance.Image = self.request.Image
-        form.instance.Video = self.request.Video
-        return super(Image, Video, self).form_valid(form)
+ #   def form_valid(self, form):
+  #      form.instance.Image = self.request.Image
+   #     form.instance.Video = self.request.Video
+    #    return super(Image, Video, self).form_valid(form)
+        
